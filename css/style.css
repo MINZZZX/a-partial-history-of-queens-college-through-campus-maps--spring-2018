@@ -55,14 +55,10 @@ header {
   padding-bottom: 40px;
   font-size: 36px;
   font-weight: 400;
-  text-align: center;
 }
 
-.fa-map {
-  color: black;
-  position: fixed;
-  top: 60px;
-  left: 160px;
+header .fa-map {
+  width: 60px;
   text-align: center;
 }
 
@@ -71,19 +67,12 @@ header a {
   color: black;
 }
 
-header h1{
+header h1 {
   margin-left: 20px;
   width: 860px;
   text-align: center;
 }
 
-h1 {
-  font-weight:normal;
-}
-
-h1 span{
-  font-weight:700;
-}
 .map-page header {
   padding: 0;
   height: 112px;
@@ -105,7 +94,6 @@ h1 span{
 }
 
 nav {
-  position: sticky;
   width: 80px;
 }
 
@@ -277,19 +265,13 @@ nav li:nth-child(7) a:hover::before {
 }
 
 main {
-  /* position: absolute;
-  left:20%; */
   background-color: #e3e3e3;
+  padding-top: 46.4px;
   width: 860px;
-  margin-bottom: 60px;
-
-
 }
 
 main p {
   padding-left: 80px;
-  padding-top: 50px;
-  padding-bottom: 50px;
   width: 720px;
   line-height: 26px;
   font-weight: 300;
@@ -301,7 +283,6 @@ main ul {
   padding-bottom: 80px;
   padding-left: 80px;
   counter-reset: listStyle;
-
 }
 
 main li {
@@ -314,17 +295,41 @@ main li::before {
 }
 
 picture {
-  position: inherit;
   display: block;
-  padding-bottom: 0;
+  padding-bottom: 80px;
   text-align: center;
 }
 
 picture img {
   padding-top: 80px;
-  padding-left: 80px;
-  padding-bottom: 80px;
-  padding-right: 80px;
+}
+
+picture.nineteen-forty {
+  background-color: #f5a3b0;
+}
+
+picture.nineteen-fifty-six {
+  background-color: #9cc5d7;
+}
+
+picture.nineteen-fifty-nine {
+  background-color: #f7f3ac;
+}
+
+picture.nineteen-sixty {
+  background-color: #c6a2f5;
+}
+
+picture.nineteen-sixty-two {
+  background-color: #9cd7ab;
+}
+
+picture.nineteen-seventy {
+  background-color: #f7d5a7;
+}
+
+picture.nineteen-eighty {
+  background-color: #f79cd0;
 }
 
 .bullet {
@@ -333,9 +338,4 @@ picture img {
 
 .map-page main {
   padding-top: 0;
-}
-
-div .column{
-  float:left;
-  width: 50%;
 }
